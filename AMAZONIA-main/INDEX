@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+
+    <title>Amazônia</title>
+
+   
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+   
+    <link href="css/custom.css" rel="stylesheet">
+
+    
+
+</head>
+
+<body>
+
+    
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              
+            </div>
+            
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="#">Qual a sua importância</a>
+                    </li>
+                    <li>
+                        <a href="#">O desmatamento</a>
+                    </li>
+                    <li>
+                        <a href="#">O impacto causado na floresta</a>
+                    </li>
+                    <li>
+                        <a href="#">Possíveis soluções</a>
+                    </li>
+					<li class="dropdown">
+						
+						<ul class="dropdown-menu" aria-labelledby="about-us">
+							<li><a href="#">Engage</a></li>
+							<li><a href="#">Pontificate</a></li>
+							<li><a href="#">Synergize</a></li>
+						</ul>
+					</li>
+                </ul>
+
+				
+
+            </div>
+            
+        </div>
+       
+    </nav>
+
+	<div class="jumbotron feature">
+		<div class="container">
+			<h1>A Floresta Amazônica </h1>
+			
+			
+		</div>
+	</div>
+
+     <!-- coluninhas de explicação -->
+
+    <div class="container">
+
+        
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">O que é a Floresta Amazônica?
+                  
+                </h1>
+                <p>A floresta amazônica é considerada a maior floresta tropical do mundo e concentra enorme biodiversidade. Além disso, ela faz parte do bioma Amazônia, o maior dos seis biomas brasileiros.
+                    Ela corresponde a 53% das florestas tropicais ainda existentes. Por isso, a sua conservação é debatida em âmbito internacional por sua dimensão e importância ecológica.
+                    Por estar localizada próxima à linha do Equador, a floresta amazônica apresenta clima equatorial. Assim, é marcada por elevadas temperaturas e umidade do ar.
+                    A biodiversidade da floresta amazônica é exuberante e os seus números impressionam:
+                    
+                        Mais de 1300 espécies de aves;
+                        Mais de 3000 espécies de peixes;
+                        Mais de 30 000 espécies de plantas;
+                        1.800 espécies de borboletas;
+                        427 espécies de anfíbios;
+                        378 espécies de répteis;
+                        Até 3.000 espécies de abelhas;
+                        311 espécies de mamíferos.
+                    
+                    Ainda cabe ressaltar que muitas dessas espécies são endêmicas, ou seja, só existem na região amazônica. Por isso, a conservação da floresta é de extrema importância.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Por Que Ela é Tão Importante?
+                  
+                </h1>
+                <p>Já sabemos que a floresta Amazônica representa um terço das florestas tropicais do mundo, além de conter mais da metade da biodiversidade do planeta. A mesma colabora para recursos hídricos, serviços ecológicos, biodiversidade e biotecnologia, extrativismo, populações indígenas, ecoturismo, agricultura, pecuária, mudanças climáticas, entre outras.Com status de maior floresta tropical do mundo, a Amazônia reúne uma biodiversidade gigantesca e oferece grandes contribuições para o ambiente mundial com o funcionamento do seu ecossistema.
+                    Uma das principais contribuições da floresta é a espécie de reservatório de carbono que o local oferece. Presente de maneira maciça no planeta, este material contribui muito para o aquecimento global, e o armazenamento deste composto por parte da Amazônia, ajuda positivamente no ambiente global.
+                    Além deste papel importante, o lugar serve também como um grande fornecedor de recursos essenciais da vida humana, como comida e água. E com a poluição da floresta, o aproveitamento destes recursos fica prejudicado.
+                    Outro ponto essencial da existência da floresta amazônica é a grande variedade de espécies que o local abriga. De acordo com dados do Instituto Chico Mendes, existem cerca de 40 mil espécies de plantas na Amazônia, e outras 300 espécies de mamíferos. </p>
+            </div>
+        </div>
+       
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">O Desmatamento
+                  
+                </h1>
+                <p>
+                    As atividades dos seres humanos interferem cada vez mais na Amazônia. As forças de mercado, a pressão populacional e o avanço da infraestrutura causam impactos em grandes áreas de floresta.À medida que se intensificam as pressões sobre a região, fica mais claro que o preço a ser pago por nossa interferência na mata não é apenas a perda da biodiversidade e do habitat, mas também a perda de qualidade de vida para nós humanos.
+                    Por trás da destruição e da degradação ambiental da Amazônia está uma série de problemas de ordem política, social e econômica.
+                    A agricultura e a pecuária, grandes obras de infraestrutura, a exploração madeireira, a grilagem de terras, o garimpo e a expansão dos assentamentos humanos são atividades com grandes impactos sobre a floresta, especialmente quando são feitas de forma ilegal ou sem obedecer a um zoneamento ecológico-econômico.
+                    O desenvolvimento econômico, em muitos casos, é sobreposto a outras preocupações, como o meio ambiente.
+                    Com isso, a meta de se construir um modelo de desenvolvimento socialmente justo, ambientalmente adequado e economicamente sustentável vem sendo deixada de lado. </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">O impacto
+                  
+                </h1>
+                <p>**FOTO DA FLORESTA ANTIGAMENTE E HOJE EM DIA COMPARANDO** </p>
+                <p>Perceba como as coisas mudaram. Como o verde foi sumindo e o cinza foi tomando conta. Da falta de árvores, grama.. Rios estão secando, vegetações estão sendo queimadas, e os poucos animais que restaram estão com dificuldade para achar o que comer e beber. No meio de tanta fumaça, destruição e exploração, quem sente a verdadeira dor, é a Floresta e seus ocupantes naturais. Em apenas alguns anos, está ocorrendo essa drástica e visível mudança. Não sabemos o que podemos esperar daqui a mais alguns anos para a nossa Floresta Amazônica.  </p>
+                <p>**VÍDEO TRISTE MOSTRANDO COMO ERA E COMO ESTÁ A FLORESTA, DESMATAMENTO, ETC** </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Por Que Desmatar a Floresta Amazônica?
+                  
+                </h1>
+                <p> A exploração blablabla </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Possível Solução
+                  
+                </h1>
+                <p> A solução blablabla
+        </div>
+
+
+
+
+        <!-- coluninhas de explicação -->
+
+        
+        <div class="row">
+            
+        </div>
+   
+    </div>
+    
+	
+	<footer>
+		<div class="footer-blurb">
+            <p> Núbia           </p>
+            <p> Teo             </p>
+            <p> Pablo           </p>
+            <p> Andreza &copy;  </p>
+			<div class="container">
+				<div class="row">
+					
+	</footer>
+
+	
+   
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+   
+    <script src="js/bootstrap.min.js"></script>
+	
+	
+	<script src="js/ie10-viewport-bug-workaround.js"></script>
+	
+	
+	
+</body>
+
+</html>
