@@ -24,13 +24,16 @@
                     $(this).css("background-color", "#d1fe30");
                 }
             })
-           
-
+            
         })
 
     </script>
 
     <style>
+        body {
+            background-color: #223F04;
+        }
+
         header {
             position: static;
             height: 60px;
@@ -56,6 +59,11 @@
 
         }
 
+        ul li{
+            display: block;
+            text-align: center;
+        }
+
         #imgAm {
             width: 100%;
             height: 250px;
@@ -73,33 +81,24 @@
 
         #solid1 {
             background-color: #223F04;
-            height: 674px;
+            height: 1000px;
             width: 100%;
             position: static;
         }
 
         #solid2 {
             background-color: #223F04;
-            height: 505px;
+            height: 800px;
             width: 100%;
             position: static;
         }
 
 
-        figure img {
-            width: 100%;
-            height: 250%;
-            margin-bottom: 0px;
-
-        }
-
         p {
             margin-bottom: 0px;
         }
 
-        figure {
-            margin-bottom: 0px;
-        }
+
 
         .container {
             position: relative;
@@ -120,11 +119,75 @@
         }
 
         #comparacao {
-            position: relative;
             left: 12px;
         }
+
+
+        a.linkum {
+            color: #bcc723;
+            text-decoration: none;
+
+        }
+
+        a.linkum:hover {
+            color: #bcc723;
+            text-decoration: underline;
+        }
+
+
+
+        a.linkdois {
+            color: #bcc723;
+            text-decoration: none;
+
+        }
+
+        a.linkdois:hover {
+            color: #bcc723;
+            text-decoration: underline;
+        }
+
+
+
+        a.linktres {
+            color: #bcc723;
+            text-decoration: none;
+
+        }
+
+        a.linktres:hover {
+            color: #bcc723;
+            text-decoration: underline;
+        }
+
+        a.linkquatro {
+            color: #bcc723;
+            text-decoration: none;
+
+        }
+
+        a.linkquatro:hover {
+            color: #bcc723;
+            text-decoration: underline;
+        }
+
+        figure {
+            margin-bottom: 0px;
+            width: auto;
+        }
+
+        figure img {
+            width: -webkit-fill-available;
+            height: auto;
+            margin-bottom: 0px;
+
+        }
+
+        article img {
+            width: -webkit-fill-available;
+        }
     </style>
-<!-- usar position: relative para deixar o container na posição desejada ( no meio da iamgem e da cor solida)
+    <!-- usar position: relative para deixar o container na posição desejada ( no meio da iamgem e da cor solida)
 necessário: id para cada conteiner (inicar do titulo do texto)
 ---
 position: relative;
@@ -147,6 +210,28 @@ usar o seguinte esqueleto
 <div>
 -->
 
+    <!-- No style, o seguinte código:
+
+  a.linkum {
+  color:#bcc723;
+  text-decoration:none;
+
+}
+
+está personalizando a cor do link com a class ''linkum''
+
+e o seguitne código:
+
+a.linkum:hover {
+  color:#bcc723;
+  text-decoration:underline;
+}
+
+deixa o sublinhado quando passa o mouse por cima e possui a mesma cor (não altera a cor)
+
+-->
+
+
 <body>
 
     <header id="header">
@@ -167,6 +252,9 @@ usar o seguinte esqueleto
             </li>
             <li class="nav-item">
                 <a style="color:#056607;" class="nav-link" href="#solucao">Possíveis soluções</a>
+            </li>
+            <li class="nav-item">
+                <a style="color:#056607;" class="nav-link" href="#agir">Hora de agir</a>
             </li>
         </ul>
     </nav>
@@ -246,13 +334,16 @@ usar o seguinte esqueleto
                     espécies de
                     plantas na Amazônia, e outras 300 espécies de mamíferos. </p>
             </article>
-            <iframe width="930" height="400" src="https://www.youtube.com/embed/xfLH9Zpuduo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="100%" height="700px" src="https://www.youtube.com/embed/xfLH9Zpuduo"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
 
         </div>
 
         <div id="imgAm">
             <figure>
-                <img src="imagens/floresta_header.png" alt="floresta">
+                <img src="imagens/floresta_header.png" alt="floresta" width="auto">
             </figure>
             <div id="solid1" class="container-fluid"></div>
         </div>
@@ -280,7 +371,7 @@ usar o seguinte esqueleto
                     ambiente.
                     Com isso, a meta de se construir um modelo de desenvolvimento socialmente justo, ambientalmente
                     adequado e economicamente sustentável vem sendo deixada de lado. </p>
-                    <img src="imagens/graficoDesmatado.png" alt="Grafio de desmatamento">
+                <img src="imagens/graficoDesmatado.png" alt="Grafio de desmatamento" width="auto">
             </article>
         </div>
 
@@ -306,8 +397,8 @@ usar o seguinte esqueleto
                     daqui a
                     mais
                     alguns anos para a nossa Floresta Amazônica. </p>
-                <img id="comparacao" src="imagens/comparacao.png" alt="comparação de 1988 e 2018">
-      
+                <img id="comparacao" src="imagens/comparacao.png" alt="comparação de 1988 e 2018" width="auto">
+
             </article>
         </div>
 
@@ -333,7 +424,7 @@ usar o seguinte esqueleto
                     floresta tão cheia de vida e recursos, quem não iria gostar de se aproveitar da mesma? É
                     justamente
                     o que é dito pelas pessoas que praticam o desmatamento e a destruição da floresta. </p>
-                    <img src="imagens/sad.png" alt="imagem das consequencias do desmatamento">
+                <img src="imagens/sad.png" alt="imagem das consequencias do desmatamento">
             </article>
         </div>
 
@@ -369,12 +460,66 @@ usar o seguinte esqueleto
                     crédito para produzir;
 
                     Reflorestar </p>
-                    <img src="imagens/soil.jpg" alt="Imagem motivacional de sustentabilidade">
+                <img src="imagens/soil.jpg" alt="Imagem motivacional de sustentabilidade">
 
             </article>
         </div>
 
     </div>
+    <div id="imgAm">
+        <figure>
+            <img src="imagens/floresta_header.png" alt="floresta">
+        </figure>
+        <div id="solid2" class="container-fluid"></div>
+    </div>
+    <!-- Hiperlinks que redirecionam aos sites das ONGs (o site SOS amazonia ta bugado mas não é nossa culpa daujfhaui) -->
+    <div class="container" style="background-color:#369141;">
+        <article id="agir">
+            <h1 class="page-header">
+                Chegou a hora de agir!
+            </h1>
+            <p>
+                Você pode ajudar na luta contra o desmatamento, as queimadas e desturições na floresta
+                amazônica!
+                Existem várias ONGs que lutam e atuam pelo meio ambiente e a Floresta Amazônica. Conheça algumas
+                delas:
+
+            <ul id="Ajudar">
+                <a href="https://www.greenpeace.org/brasil/" class="linkum">
+                    <li> Greenpeace</li>
+                </a>
+                <a href="https://sosamazonia.org.br/conteudo/" class="linkdois">
+                    <li> SOS Amazônia</li>
+                </a>
+                <a href="https://fas-amazonia.org/" class="linktres">
+                    <li>Fundação Amazonas sustentável</li>
+                </a>
+                <a href="http://ecam.org.br/" class="linkquatro">
+                    <li>Equipe de Conservação da Amazônia</li>
+                </a>
+            </ul>
+
+
+            <p>
+            <figcaption> Clique no nome da ONG que mais te interessar, que será redirecionado ao site da mesma!
+            </figcaption>
+            </p>
+            <figure>
+                <img height="50%" width="50%" src="/corporate-1/imagens/maos-natureza.jpg" alt="Ajude a natureza">
+            </figure>
+
+            <p>
+                Agora que você conhece iniciativas e organizações que atuam pelo planeta, inspire-se por elas e faça a
+                sua parte para transformar a Terra em um mundo melhor e mais respeitoso para todas as formas de vida. A
+                sua ação pode fazer toda a diferença, não espere por tragédias para colocá-la em prática, aja hoje!
+            </p>
+
+
+
+            </p>
+        </article>
+    </div>
+
 
 
     <footer>
